@@ -4,3 +4,7 @@
 
 npx lint-staged
 # 在项目中执行 Git 钩子（hooks）
+# 执行 Git 钩子（hooks）是指在 Git 特定的操作发生时自动运行预定义的脚本。
+# Git 钩子包括诸如 pre-commit、post-commit、pre-push、post-merge 等等，每个钩子在 Git 的不同操作点被触发。
+# 一句话："pre-commit" 文件的作用是在执行 Git 提交操作之前自动运行指定的脚本或命令，通常用于执行代码风格检查、静态代码分析等任务。
+
