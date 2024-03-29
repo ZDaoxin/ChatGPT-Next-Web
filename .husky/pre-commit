@@ -1,4 +1,5 @@
 #!/usr/bin/env sh
+# 上边是Shebang 行，是指在脚本文件的开头的一行特殊注释，用于告诉操作系统应该使用哪个解释器来执行该脚本。通常的格式是 #!/path/to/interpreter，其中 #! 是一个固定的标记，后面跟着解释器的路径。
 . "$(dirname -- "$0")/_/husky.sh"
 
 npx lint-staged
